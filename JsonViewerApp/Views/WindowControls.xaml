@@ -1,0 +1,12 @@
+﻿<UserControl x:Class="JsonViewerApp.Views.WindowControls"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d">
+    <DockPanel LastChildFill="False">
+        <Button Style="{StaticResource WindowButton}" Content="&#xE921;" ToolTip="Свернуть" Click="MinimizeWindow" />
+        <Button Style="{StaticResource WindowButton}" Content="&#xE922;" ToolTip="Развернуть" Click="MaximizeWindow" />
+        <Button Style="{StaticResource WindowButton}" Content="&#xE8BB;" ToolTip="Закрыть" Click="CloseWindow" />
+    </DockPanel>
+</UserControl>
